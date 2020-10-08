@@ -3,7 +3,6 @@ init(autoreset=True)
 
 try:
 	import socket
-	import time
 	import os
 	import threading
 except Exception as e:
