@@ -3,7 +3,6 @@ init(autoreset=True)
 
 try:
 	import socket
-	import time
 	import os
 	from tkinter import *
 	from tkinter import simpledialog
