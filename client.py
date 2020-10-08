@@ -35,7 +35,7 @@ def view():
 hide()
 
 port = 5050
-server = "192.168.1.109"
+server = "127.0.0.1" # Server's Ip
 nbrchangename = 0
 
 window = Tk()
