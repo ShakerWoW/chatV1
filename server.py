@@ -17,7 +17,7 @@ except:
 	os.system('clear')
 
 port = 5050
-server = "192.168.1.109"
+server = "127.0.0.1" # Your ip
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((server, port))
